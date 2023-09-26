@@ -1,0 +1,17 @@
+.popup__tootltip-header {
+  all: unset;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  max-width: 358px;
+  margin: 0 auto 60px;
+}
+
+@media screen and (max-width: 425px) {
+  .popup__tootltip-header {
+    font-size: 20px;
+  }
+}
