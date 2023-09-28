@@ -110,5 +110,5 @@ class Api {
 
 //https://mesto.nomoreparties.co/v1/cohort-69
 export const api = new Api({
-  baseUrl: 'http://localhost:3001',
+  baseUrl: 'http://localhost:3000',
 });
