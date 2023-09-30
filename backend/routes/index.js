@@ -6,6 +6,12 @@ const signupRouter = require('./signup');
 const NotFoundError = require('../errors/NotFoundError');
 const auth = require('../middlewares/auth');
 
+router.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 router.use('/signin', signinRouter);
 router.use('/signup', signupRouter);
 router.use(auth); // все роуты ниже этой строки будут защищены

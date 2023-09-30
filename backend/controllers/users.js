@@ -1,4 +1,4 @@
-const { SECRET_KEY = 'some-secret-key' } = process.env;
+const { SECRET_KEY } = process.env;
 const { Error } = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
