@@ -37,9 +37,9 @@ app.use(requestLogger);
 
 app.use(limiter);
 
-app.get('/', (req, res) => {
-  res.send('Пять минут полет нормальный');
-});
+// app.get('/', (req, res) => {
+//   res.send('Пять минут полет нормальный');
+// });
 
 app.use('/', require('./routes/index'));
 
