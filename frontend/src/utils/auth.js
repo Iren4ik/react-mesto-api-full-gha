@@ -1,4 +1,5 @@
-export const BASE_URL = 'http://localhost:3000'; //здесь будет наш домен https://auth.nomoreparties.co
+// export const BASE_URL = 'http://localhost:3000'; //здесь будет наш домен https://auth.nomoreparties.co
+export const BASE_URL = 'http://mesto.irena.nomoredomainsrocks.ru';
 
 function checkResponse(res) {
   if (res.ok) {
