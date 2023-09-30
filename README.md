@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 130.193.53.253
+IP 130.193.53.253
 
 Frontend https://mesto.irena.nomoredomainsrocks.ru
 
