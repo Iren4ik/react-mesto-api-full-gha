@@ -12,7 +12,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const { PORT = 3000, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 // console.log(process.env); // переменные окружения
-// console.log(process.env.NODE_ENV); // production
+// console.log(process.env.NODE_ENV);
 
 const app = express();
 
