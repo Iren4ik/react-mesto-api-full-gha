@@ -37,10 +37,6 @@ app.use(requestLogger);
 
 app.use(limiter);
 
-// app.get('/', (req, res) => {
-//   res.send('Все в порядке, можно работать!');
-// });
-
 app.use('/', require('./routes/index'));
 
 app.use(errorLogger);
