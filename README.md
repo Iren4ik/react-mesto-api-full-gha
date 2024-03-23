@@ -1,4 +1,4 @@
-[![Статус тестов](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
+
 
 # Проект: Место (frontend + backend)
 Учебный проект выполненный в рамках курса "Веб-разработчик" от Яндекс Практикум.
