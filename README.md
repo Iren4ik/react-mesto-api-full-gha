@@ -1,7 +1,6 @@
 
 
 # Проект: Место (frontend + backend)
-Учебный проект выполненный в рамках курса "Веб-разработчик" от Яндекс Практикум.
 Проект представляет из себя веб-приложение с бэкенд частью - [проект express-mesto-gha](https://github.com/iren4ik/express-mesto-gha) и фронтенд частью - [проект react-mesto-auth](https://github.com/iren4ik/react-mesto-auth) выполненный в рамках указанного выше учебного курса.
 
 Адрес репозитория: https://github.com/Iren4ik/react-mesto-api-full-gha
